@@ -1,5 +1,4 @@
- syntax = "proto3";
-
+syntax = "proto3";
 package courseservice;
 
 // Определяем сообщение запроса
@@ -19,4 +18,3 @@ service CourseService {
   // Определяем метод gRPC-сервиса
   rpc GetCourse (GetCourseRequest) returns (GetCourseResponse);
 }
-
